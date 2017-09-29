@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ArticleList renders correctly 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "borderBottomColor": "#aaaeef",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": 1,
+        "marginBottom": 10,
+        "paddingBottom": 10,
+      }
+    }
+  >
+    <h2
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    />
+    <p
+      style={
+        Object {
+          "color": "#888",
+          "fontSize": "0.85em",
+        }
+      }
+    >
+      Invalid Date
+       
+    </p>
+    <div
+      style={
+        Object {
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      Written by: 
+      <a
+        href="google.com"
+      >
+        <i>
+          George
+           
+          Costanza
+        </i>
+         
+      </a>
+    </div>
+    <p
+      style={
+        Object {
+          "paddingLeft": 20,
+        }
+      }
+    >
+       
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "borderBottomColor": "#aaaeef",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": 1,
+        "marginBottom": 10,
+        "paddingBottom": 10,
+      }
+    }
+  >
+    <h2
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    />
+    <p
+      style={
+        Object {
+          "color": "#888",
+          "fontSize": "0.85em",
+        }
+      }
+    >
+      Invalid Date
+       
+    </p>
+    <div
+      style={
+        Object {
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      Written by: 
+      <a
+        href="google.com"
+      >
+        <i>
+          George
+           
+          Costanza
+        </i>
+         
+      </a>
+    </div>
+    <p
+      style={
+        Object {
+          "paddingLeft": 20,
+        }
+      }
+    >
+       
+    </p>
+  </div>
+</div>
+`;
