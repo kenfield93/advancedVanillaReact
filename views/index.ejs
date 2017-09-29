@@ -7,9 +7,8 @@
     <title>Vanilla React Project</title>
 </head>
 <body>
-    <div id="root" >
-        Loading...
-    </div>
+    <!-- react will alter react code rendered server side if it differs at all from client rendering(including spaces) -->
+    <div id="root" ><%-initialContent-%></div>
 
     <script src="/bundle.js" charset="UTF-8" ></script>
 </body>

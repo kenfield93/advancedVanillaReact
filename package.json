@@ -6,11 +6,12 @@
   "author": "Kyle Enfield",
   "license": "MIT",
   "scripts": {
-      "devStart": "pm2 start lib/server.js --watch --interpreter babel-node",
-      "devEnd": "pm2 delete 0",
-      "devLogs": "pm2 logs",
-      "webpack": "webpack -wd",
-      "test": "jest --watch"
+    "KylesComment": "NODE_PATH trick works for node files, need to config webpack.config to get it to work for webpack",
+    "devStart": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
+    "devEnd": "pm2 delete 0",
+    "devLogs": "pm2 logs",
+    "webpack": "webpack -wd",
+    "test": "jest --watch"
   },
   "babel": {
     "presets": [
