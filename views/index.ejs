@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vanilla React Project</title>
+    <script type="text/javascript">
+        window.initialData = <%-JSON.stringify(initialData)-%>
+    </script>
 </head>
 <body>
     <!-- react will alter react code rendered server side if it differs at all from client rendering(including spaces) -->
-    <div id="root" ><%-initialContent-%></div>
+    <div id="root" ><%-initialMarkup-%></div>
 
     <script src="/bundle.js" charset="UTF-8" ></script>
 </body>
